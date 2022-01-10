@@ -14,8 +14,8 @@ npx hardhat run scripts/run.js
 
 THREE most important steps: 
 After any changes to contracts,
-1. Redeploy using deploying command above
-2. Update contract address in App.js (used by frontend to access smart contract impl)
+1. Redeploy contract using deploy command above to Blockchain
+2. Update contract address in App.js on frontend (used by frontend to access smart contract impl)
 3. Update ABI file (utils JSON file) on frontend
 
 ABI JSON file found in artifacts/contracts/{$smart_contract_filename}.sol folder
