@@ -18,3 +18,5 @@ After any changes to contracts,
 2. Update contract address in App.js (used by frontend to access smart contract impl)
 3. Update ABI file (utils JSON file) on frontend
 
+ABI JSON file found in artifacts/contracts/{$smart_contract_filename}.sol folder
+Copy-paste to frontend 
